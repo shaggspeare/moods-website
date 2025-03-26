@@ -1,2 +1,8 @@
-# moods-website
-moods-website
+# blank
+
+blank
+
+## Attributes
+
+- **Database**: mongodb
+- **Storage Adapter**: localDisk
