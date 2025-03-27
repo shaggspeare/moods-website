@@ -78,7 +78,7 @@ const Home1BannerSlider = () => {
                   dangerouslySetInnerHTML={{__html: Content.title.first}}
                   className="mil-uppercase mil-light"
                 />{" "}
-                <span className="mil-font-3 mil-accent">{Content.title.second}</span>
+                <span className="mil-font-3 mil-accent" style={{fontSize: 90, marginLeft: 16}}>{Content.title.second}</span>
               </h1>
               <div className="mil-flex-hori-center">
                 <div>
@@ -94,29 +94,29 @@ const Home1BannerSlider = () => {
                 </p>
               </div>
             </div>
-            <div className="col-xl-4">
-              <div className="mil-illustration-1">
-                {Content.items.map((item, key) => (
-                  <div key={key} className={`mil-item mil-item-${key+1}`}>
-                    <div className="mil-plus">
-                      <div className="mil-hover-window">
-                        <div className="mil-window-content">
-                          <h5 className="mil-dark mil-mb-15">{item.title}</h5>
-                          <div className="mil-divider mil-divider-left mil-mb-15" />
-                          <p className="mil-text-sm">
-                            {item.text}
-                          </p>
-                        </div>
-                      </div>
-                      <div className="mil-item-hover">
-                        <div className="mil-plus-icon">+</div>
-                        <h6 className="mil-light">{item.label}</h6>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+            {/*<div className="col-xl-4">*/}
+            {/*  <div className="mil-illustration-1">*/}
+            {/*    {Content.items.map((item, key) => (*/}
+            {/*      <div key={key} className={`mil-item mil-item-${key+1}`}>*/}
+            {/*        <div className="mil-plus">*/}
+            {/*          <div className="mil-hover-window">*/}
+            {/*            <div className="mil-window-content">*/}
+            {/*              <h5 className="mil-dark mil-mb-15">{item.title}</h5>*/}
+            {/*              <div className="mil-divider mil-divider-left mil-mb-15" />*/}
+            {/*              <p className="mil-text-sm">*/}
+            {/*                {item.text}*/}
+            {/*              </p>*/}
+            {/*            </div>*/}
+            {/*          </div>*/}
+            {/*          <div className="mil-item-hover">*/}
+            {/*            <div className="mil-plus-icon">+</div>*/}
+            {/*            <h6 className="mil-light">{item.label}</h6>*/}
+            {/*          </div>*/}
+            {/*        </div>*/}
+            {/*      </div>*/}
+            {/*    ))}*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>

@@ -15,13 +15,18 @@ import LatestProjectsSlider from '../../components/sliders/LatestProjects.jsx'
 import LatestPostsSlider from '../../components/sliders/LatestPosts.jsx'
 import HeroSlideshowSlider from '../../components/sliders/HeroSlideshow.jsx'
 import TestimonialSlider from '../../components/sliders/Testimonial.jsx'
+import AboutSection from '../../components/sections/About.jsx'
+import { WorkWithUsSection } from '../../components/sections/WorkWithUs.jsx'
 
 export default async function Page() {
-  const { posts, projects } = await getData();
+  const { posts, projects } = await getData()
 
   return (
     <Layouts transparent>
       <HeroSlideshowSlider />
+      <AboutSection />
+      <WorkWithUsSection />
+
       <PartnersSection />
       <Divider />
       <ServicesSection />
@@ -37,14 +42,13 @@ export default async function Page() {
   )
 }
 
-
 async function getData() {
   // Make sure these functions are either async or wrapped with Promise.resolve if they're synchronous
-  const posts = await getSortedPostsData();
-  const projects = await getSortedProjectsData();
+  const posts = await getSortedPostsData()
+  const projects = await getSortedProjectsData()
 
   return {
     posts,
-    projects
-  };
+    projects,
+  }
 }

@@ -1,17 +1,14 @@
 {
-    "title": { "first": "We Provide Services <br />and Solutions", "second": "To Enterprise" },
-    "subtitle": { "first": "The Next", "second": "Gen" },
-    "button": { "label": "Let’s Talk", "link": "/contact" },
+    "title": { "first": "Школа комедійної імпровізації", "second": "Moods" },
+    "subtitle": { "first": "Moods", "second": "School" },
+    "button": { "label": "Зв'язатись з нами", "link": "/contact" },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "slides": [
         {
-            "image": "img/photo/1.jpg"
+            "image": "img/photo/1.png"
         },
         {
-            "image": "img/photo/2.jpg"
-        },
-        {
-            "image": "img/photo/3.jpg"
+            "image": "img/photo/2.png"
         }
     ],
     "items": [
