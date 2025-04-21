@@ -1,4 +1,6 @@
-const Footer2 = () => {
+import React from 'react';
+
+const Footer2: React.FC = () => {
   return (
     <footer className="mil-dark-bg">
       <img src="img/deco/map.png" alt="background" className="mil-footer-bg" />

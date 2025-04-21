@@ -1,4 +1,11 @@
-const Header2 = () => {
+import Link from "next/link";
+import React from "react";
+
+interface Header2Props {
+  transparent?: boolean;
+}
+
+const Header2: React.FC<Header2Props> = ({ transparent }) => {
   return (
     <div className="mil-top-position mil-fixed has-additional-panel">
       <div className="mil-additional-panel">

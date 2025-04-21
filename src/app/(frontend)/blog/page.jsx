@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Layouts from '../../../layouts/Layouts.js'
-import PageBanner from '../../../components/PageBanner.js'
+import Layouts from '../../../layouts/Layouts'
+import PageBanner from '../../../components/PageBanner'
 
 const Page = () => {
   return (

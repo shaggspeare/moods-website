@@ -1,8 +1,14 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
-  const [toggle, setToggle] = useState(false);
+interface DefaultHeaderProps {
+  transparent?: boolean;
+  headerTop?: boolean;
+  extarClass?: string;
+}
+
+const DefaultHeader: React.FC<DefaultHeaderProps> = ({ transparent, headerTop, extarClass }) => {
+  const [toggle, setToggle] = useState<boolean>(false);
   return (
     <div
       className={`mil-top-position mil-fixed ${extarClass ? extarClass : ""}`}

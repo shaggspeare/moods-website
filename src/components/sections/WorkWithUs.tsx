@@ -1,4 +1,6 @@
-export const WorkWithUsSection = () => {
+import React from 'react';
+
+export const WorkWithUsSection: React.FC = () => {
   return <section className="mil-about mil-deep-bg mil-p-120-0">
     <div className="container">
       <div className="row align-items-center justify-content-between">

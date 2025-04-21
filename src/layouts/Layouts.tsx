@@ -1,9 +1,20 @@
 "use client";
 
-import { useEffect } from "react";
-import Footer from "./footers/Index.js";
-import Header from "./headers/Index.js";
-import { accordion, milButtonClick, milButtonClick2 } from '../common/utilits.js'
+import { useEffect, ReactNode } from "react";
+import { accordion, milButtonClick, milButtonClick2 } from '../common/utilits'
+import Header from '@/layouts/headers/Header'
+import Footer from '@/layouts/footers/Footer'
+
+interface LayoutsProps {
+  children: ReactNode;
+  header?: any;
+  footer?: any;
+  noHeader?: boolean;
+  noFooter?: boolean;
+  transparent?: boolean;
+  headerTop?: boolean;
+  extarClass?: string;
+}
 
 const Layouts = ({
   children,
@@ -14,7 +25,7 @@ const Layouts = ({
   transparent,
   headerTop,
   extarClass,
-}) => {
+}: LayoutsProps) => {
   useEffect(() => {
     milButtonClick();
     milButtonClick2();

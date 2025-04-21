@@ -1,4 +1,4 @@
-// src/app/(frontend)/common/sliderProps.js
+// src/app/(frontend)/common/sliderProps.ts
 import { register } from 'swiper/element/bundle';
 
 // Register Swiper custom elements
@@ -9,7 +9,50 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export const sliderProps = {
+// Define interfaces for slider properties
+interface NavigationOptions {
+  prevEl: string;
+  nextEl: string;
+}
+
+interface AutoplayOptions {
+  delay: number;
+}
+
+interface PaginationOptions {
+  el: string;
+  type: string;
+  clickable: boolean;
+}
+
+interface BreakpointOptions {
+  [key: number]: {
+    slidesPerView: number | "auto";
+  };
+}
+
+interface SliderOptions {
+  slidesPerView: number | "auto";
+  spaceBetween?: number;
+  speed: number;
+  navigation?: NavigationOptions;
+  breakpoints?: BreakpointOptions;
+  autoplay?: AutoplayOptions;
+  effect?: string;
+  parallax?: boolean;
+  loop?: boolean;
+  pagination?: PaginationOptions;
+  allowTouchMove?: boolean;
+  hashNavigation?: {
+    watchState: boolean;
+  };
+}
+
+interface SliderProps {
+  [key: string]: SliderOptions;
+}
+
+export const sliderProps: SliderProps = {
   latestProjectSlider: {
     slidesPerView: 1,
     spaceBetween: 30,

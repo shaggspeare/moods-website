@@ -1,4 +1,6 @@
-const DefaultFooter = () => {
+import React from 'react';
+
+const DefaultFooter: React.FC = () => {
   return (
     <footer className="mil-dark-bg">
       <img src="img/deco/map.png" alt="background" className="mil-footer-bg" />

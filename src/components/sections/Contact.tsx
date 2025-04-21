@@ -1,13 +1,28 @@
-const ContactForm = () => {
+import React from 'react';
+import Content from "../../data/sections/contact.json";
+
+interface TitleParts {
+  first: string;
+  second: string;
+}
+
+interface ContactContent {
+  title: TitleParts;
+}
+
+const ContactSection: React.FC = () => {
+  // Type assertion to ensure Content has the expected structure
+  const typedContent = Content as ContactContent;
+  
   return (
     <section className="mil-contact mil-gradient-bg mil-p-120-0">
-      <div
-        className="mil-deco mil-deco-accent"
-        style={{ top: 0, right: "10%" }}
-      />
+      {/*<div*/}
+      {/*  className="mil-deco mil-deco-accent"*/}
+      {/*  style={{ top: 0, right: "10%" }}*/}
+      {/*/>*/}
       <div className="container">
         <h2 className="mil-light mil-mb-90">
-          Contact <span className="mil-accent">Me</span>
+          {typedContent.title.first} <span className="mil-accent">{typedContent.title.second}</span>
         </h2>
         <form>
           <div className="row">
@@ -24,7 +39,7 @@ const ContactForm = () => {
                   <span className="mil-light">Email Adress</span>
                   <span className="mil-accent">Required</span>
                 </label>
-                <input type="email" placeholder="Your Email" />
+                <input type="email" id="email" placeholder="Your Email" />
               </div>
               <div className="mil-input-frame mil-mb-60">
                 <label>
@@ -51,8 +66,8 @@ const ContactForm = () => {
                 <textarea placeholder="Your Message" defaultValue={""} />
               </div>
               <p className="mil-text-sm mil-light-soft mil-mb-15">
-                We will process your personal information in accordance with our
-                Privacy Policy.
+                We will process your personal information in accordance with
+                our Privacy Policy.
               </p>
               <div className="mil-checbox-frame mil-mb-60">
                 <input
@@ -62,7 +77,8 @@ const ContactForm = () => {
                   defaultValue="value"
                 />
                 <label htmlFor="checkbox-1" className="mil-text-sm mil-light">
-                  I would like to be contacted with news and updates about your{" "}
+                  I would like to be contacted with news and updates about
+                  your{" "}
                   <a href="#." className="mil-accent">
                     events and services
                   </a>
@@ -80,4 +96,5 @@ const ContactForm = () => {
     </section>
   );
 };
-export default ContactForm;
+
+export default ContactSection;

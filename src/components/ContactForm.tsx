@@ -1,15 +1,15 @@
-import Content from "../../data/sections/contact.json";
+import React from 'react';
 
-const ContactSection = () => {
+const ContactForm: React.FC = () => {
   return (
     <section className="mil-contact mil-gradient-bg mil-p-120-0">
-      {/*<div*/}
-      {/*  className="mil-deco mil-deco-accent"*/}
-      {/*  style={{ top: 0, right: "10%" }}*/}
-      {/*/>*/}
+      <div
+        className="mil-deco mil-deco-accent"
+        style={{ top: 0, right: "10%" }}
+      />
       <div className="container">
         <h2 className="mil-light mil-mb-90">
-          {Content.title.first} <span className="mil-accent">{Content.title.second}</span>
+          Contact <span className="mil-accent">Me</span>
         </h2>
         <form>
           <div className="row">
@@ -26,7 +26,7 @@ const ContactSection = () => {
                   <span className="mil-light">Email Adress</span>
                   <span className="mil-accent">Required</span>
                 </label>
-                <input type="email" id="email" placeholder="Your Email" />
+                <input type="email" placeholder="Your Email" />
               </div>
               <div className="mil-input-frame mil-mb-60">
                 <label>
@@ -53,8 +53,8 @@ const ContactSection = () => {
                 <textarea placeholder="Your Message" defaultValue={""} />
               </div>
               <p className="mil-text-sm mil-light-soft mil-mb-15">
-                We will process your personal information in accordance with
-                our Privacy Policy.
+                We will process your personal information in accordance with our
+                Privacy Policy.
               </p>
               <div className="mil-checbox-frame mil-mb-60">
                 <input
@@ -64,8 +64,7 @@ const ContactSection = () => {
                   defaultValue="value"
                 />
                 <label htmlFor="checkbox-1" className="mil-text-sm mil-light">
-                  I would like to be contacted with news and updates about
-                  your{" "}
+                  I would like to be contacted with news and updates about your{" "}
                   <a href="#." className="mil-accent">
                     events and services
                   </a>
@@ -83,5 +82,4 @@ const ContactSection = () => {
     </section>
   );
 };
-
-export default ContactSection;
+export default ContactForm;

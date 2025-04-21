@@ -1,6 +1,12 @@
+import React from 'react';
 import Link from "next/link";
 
-const PageBanner = ({ pageTitle, pageName }) => {
+interface PageBannerProps {
+  pageTitle: string;
+  pageName: string;
+}
+
+const PageBanner: React.FC<PageBannerProps> = ({ pageTitle, pageName }) => {
   return (
     <div className="mil-banner-sm mil-deep-bg">
       <img
