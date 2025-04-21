@@ -1,22 +1,22 @@
 import React from 'react'
-import Layouts from '../../layouts/Layouts.js'
+import Layouts from '../../layouts/Layouts'
 
-import { getSortedPostsData } from '../../lib/posts.js'
-import { getSortedProjectsData } from '../../lib/projects.js'
+import { getSortedPostsData } from '../../lib/posts'
+import { getSortedProjectsData } from '../../lib/projects'
 
-import PartnersSection from '../../components/sections/Partners.jsx'
-import ServicesSection from '../../components/sections/Services.jsx'
-import HowItWorksSection from '../../components/sections/HowItWorks.jsx'
-import SkillsSection from '../../components/sections/Skills.jsx'
-import ContactSection from '../../components/sections/Contact.jsx'
-import Divider from '../../components/sections/Divider.jsx'
+import PartnersSection from '../../components/sections/Partners'
+import ServicesSection from '../../components/sections/Services'
+import HowItWorksSection from '../../components/sections/HowItWorks'
+import SkillsSection from '../../components/sections/Skills'
+import ContactSection from '../../components/sections/Contact'
+import Divider from '../../components/sections/Divider'
 
-import LatestProjectsSlider from '../../components/sliders/LatestProjects.jsx'
-import LatestPostsSlider from '../../components/sliders/LatestPosts.jsx'
-import HeroSlideshowSlider from '../../components/sliders/HeroSlideshow.jsx'
-import TestimonialSlider from '../../components/sliders/Testimonial.jsx'
-import AboutSection from '../../components/sections/About.jsx'
-import { WorkWithUsSection } from '../../components/sections/WorkWithUs.jsx'
+import LatestProjectsSlider from '../../components/sliders/LatestProjects'
+import LatestPostsSlider from '../../components/sliders/LatestPosts'
+import HeroSlideshowSlider from '../../components/sliders/HeroSlideshow'
+import TestimonialSlider from '../../components/sliders/Testimonial'
+import AboutSection from '../../components/sections/About'
+import { WorkWithUsSection } from '../../components/sections/WorkWithUs'
 
 export default async function Page() {
   const { posts, projects } = await getData()

@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, ReactNode } from "react";
-import Footer from "./footers/Index.js";
-import Header from "./headers/Index.js";
-import { accordion, milButtonClick, milButtonClick2 } from '../common/utilits.js'
+import { accordion, milButtonClick, milButtonClick2 } from '../common/utilits'
+import Header from '@/layouts/headers/Header'
+import Footer from '@/layouts/footers/Footer'
 
 interface LayoutsProps {
   children: ReactNode;

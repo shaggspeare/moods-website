@@ -14,7 +14,7 @@ const Service2Reviews = dynamic(
     ssr: false,
   }
 );
-const LatestProjectsSlider = dynamic( () => import("../../../components/sliders/LatestProjects.jsx"), { ssr: false } );
+const LatestProjectsSlider = dynamic( () => import("../../../components/sliders/LatestProjects"), { ssr: false } );
 
 
 const Service2 = () => {

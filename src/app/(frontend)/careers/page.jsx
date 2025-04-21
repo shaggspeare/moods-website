@@ -1,9 +1,9 @@
-import { getSortedPostsData } from "../../../lib/posts.js";
+import { getSortedPostsData } from "../../../lib/post";
 import Layouts from '../../../layouts/Layouts.js'
 import PageBanner from '../../../components/PageBanner.js'
 import CareersBannerSlider from '../../../components/sliders/CareersBannerSlider.js'
-import LatestPostsSlider from '../../../components/sliders/LatestPosts.jsx'
-import { WorkWithUsSection } from '../../../components/sections/WorkWithUs.jsx'
+import LatestPostsSlider from '../../../components/sliders/LatestPosts'
+import { WorkWithUsSection } from '../../../components/sections/WorkWithUs'
 
 const Page = (posts) => {
   return (

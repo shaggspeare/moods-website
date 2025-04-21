@@ -1,5 +1,5 @@
-import DefaultFooter from "./DefaultFooter.js";
-import Footer2 from "./Footer2.js";
+import DefaultFooter from "./DefaultFooter";
+import Footer2 from "./Footer2";
 
 interface FooterProps {
   footer?: number;
