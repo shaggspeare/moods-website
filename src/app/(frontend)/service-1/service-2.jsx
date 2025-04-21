@@ -24,10 +24,10 @@ const Service2 = () => {
 
       {/* call to action */}
       <section className="mil-p-120-90">
-        <div
-          className="mil-deco"
-          style={{ bottom: 0, right: "25%", transform: "rotate(180deg)" }}
-        />
+        {/*<div*/}
+        {/*  className="mil-deco"*/}
+        {/*  style={{ bottom: 0, right: "25%", transform: "rotate(180deg)" }}*/}
+        {/*/>*/}
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -63,7 +63,7 @@ const Service2 = () => {
       </div>
       {/* process */}
       <section className="mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, right: "25%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, right: "25%" }} />*/}
         <div className="container">
           <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             High Experience
@@ -204,7 +204,7 @@ const Service2 = () => {
       {/* call to action end */}
       {/* tech stack */}
       <section className="mil-p-120-90">
-        <div className="mil-deco" style={{ top: 0, right: "15%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, right: "15%" }} />*/}
         <div className="container">
           <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             Our Tools

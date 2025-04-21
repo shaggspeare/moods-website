@@ -235,7 +235,7 @@ const Project = () => {
       </div>
       {/* conclusion */}
       <section className="mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, left: "30%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, left: "30%" }} />*/}
         <div className="container">
           <div className="row align-items-end mil-mb-90">
             <div className="col-xl-6">

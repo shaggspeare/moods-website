@@ -13,10 +13,10 @@ const Service4 = () => {
       <PageBanner pageName={"Service"} pageTitle={"Cybersecurity"} />
       {/* about */}
       <section className="mil-p-120-90">
-        <div
-          className="mil-deco"
-          style={{ bottom: 0, right: "20%", transform: "rotate(180deg)" }}
-        />
+        {/*<div*/}
+        {/*  className="mil-deco"*/}
+        {/*  style={{ bottom: 0, right: "20%", transform: "rotate(180deg)" }}*/}
+        {/*/>*/}
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-4">

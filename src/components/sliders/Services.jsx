@@ -6,7 +6,7 @@ import Content from '../../data/sliders/services.json';
 const Home2ServicesSlider = () => {
   return (
     <section className="mil-services mil-deep-bg mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: "20%" }} />
+      {/*<div className="mil-deco" style={{ top: 0, right: "20%" }} />*/}
       <div className="container">
         <div className="row align-items-center mil-mb-90">
           <div className="col-md-6 col-xl-6">

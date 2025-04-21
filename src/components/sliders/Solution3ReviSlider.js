@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Solution3ReviSlider = () => {
   return (
     <section className="mil-p-0-90">
-      <div
-        className="mil-deco"
-        style={{ bottom: 0, right: "40%", transform: "rotate(180deg)" }}
-      />
+      {/*<div*/}
+      {/*  className="mil-deco"*/}
+      {/*  style={{ bottom: 0, right: "40%", transform: "rotate(180deg)" }}*/}
+      {/*/>*/}
       <div className="container">
         <h2 className="mil-mb-60">
           Industry <span className="mil-accent">Specific IoT</span> Development

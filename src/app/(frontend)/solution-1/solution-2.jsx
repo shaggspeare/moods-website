@@ -137,7 +137,7 @@ const Solution2 = () => {
       </div>
       {/* ??? */}
       <section className="mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, left: "15%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, left: "15%" }} />*/}
         <div className="container">
           <div className="mil-text-center mil-mb-90">
             <span className="mil-suptitle mil-suptitle-2 mil-mb-30">

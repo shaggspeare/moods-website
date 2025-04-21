@@ -42,7 +42,7 @@ const About = () => {
       {/* call to action end */}
       {/* about */}
       <section className="mil-deep-bg mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, left: "35%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, left: "35%" }} />*/}
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5 mil-mb-60">
@@ -117,7 +117,7 @@ const About = () => {
       {/* about end */}
       {/* counters */}
       <section className="mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, left: "25%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, left: "25%" }} />*/}
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-5">
@@ -201,7 +201,7 @@ const About = () => {
       {/* partners end */}
       {/* about */}
       <section className="mil-deep-bg mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, right: "15%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, right: "15%" }} />*/}
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5 mil-mb-60">
@@ -353,7 +353,7 @@ const About = () => {
       {/* features end */}
       {/* features */}
       <section className="mil-deep-bg mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, right: "25%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, right: "25%" }} />*/}
         <div className="container">
           <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             For Enterprise

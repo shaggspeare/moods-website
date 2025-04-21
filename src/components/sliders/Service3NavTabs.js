@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Service3NavTabs = () => {
   return (
     <section className="mil-p-120-60">
-      <div className="mil-deco" style={{ top: 0, right: "15%" }} />
+      {/*<div className="mil-deco" style={{ top: 0, right: "15%" }} />*/}
       <div className="container">
         <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
           All Devices

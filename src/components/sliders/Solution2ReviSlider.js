@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Solution2ReviSlider = () => {
   return (
     <section className="mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: "20%" }} />
+      {/*<div className="mil-deco" style={{ top: 0, right: "20%" }} />*/}
       <div className="container">
         <div className="row align-items-end mil-mb-90">
           <div className="col-md-6 col-xl-7">

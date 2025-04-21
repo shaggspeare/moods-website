@@ -96,7 +96,7 @@ const Service3 = () => {
       </div>
       {/* ??? */}
       <section className="mil-p-120-60">
-        <div className="mil-deco" style={{ top: 0, right: "15%" }} />
+        {/*<div className="mil-deco" style={{ top: 0, right: "15%" }} />*/}
         <div className="container">
           <div className="mil-mb-90">
             <h2 className="mil-mb-30">

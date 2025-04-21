@@ -5,11 +5,11 @@ import Content from "../../data/sliders/courses.json";
 const Home2Courses = () => {
   return (
     <section className="mil-courses mil-deep-bg mil-p-120-120">
-      <div className="mil-deco" style={{ top: 0, right: "40%" }} />
-      <div
-        className="mil-deco"
-        style={{ bottom: 0, right: "15%", transform: "rotate(180deg)" }}
-      />
+      {/*<div className="mil-deco" style={{ top: 0, right: "40%" }} />*/}
+      {/*<div*/}
+      {/*  className="mil-deco"*/}
+      {/*  style={{ bottom: 0, right: "15%", transform: "rotate(180deg)" }}*/}
+      {/*/>*/}
       <div className="container">
         <div className="row align-items-center mil-mb-60-adapt">
           <div className="col-md-6 col-xl-6">

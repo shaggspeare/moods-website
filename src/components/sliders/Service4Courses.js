@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Service4Courses = () => {
   return (
     <section className="mil-courses mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: "40%" }} />
+      {/*<div className="mil-deco" style={{ top: 0, right: "40%" }} />*/}
       <div className="container">
         <div className="row align-items-center mil-mb-60-adapt">
           <div className="col-md-6 col-xl-6">

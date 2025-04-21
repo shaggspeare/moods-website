@@ -74,7 +74,7 @@ const Home1TestimonialSlider = () => {
 
   return (
     <section className="mil-reviews mil-deep-bg mil-p-120-120">
-      <div className="mil-deco" style={{ top: 0, right: '30%' }} />
+      {/*<div className="mil-deco" style={{ top: 0, right: '30%' }} />*/}
       <div className="container">
         <div className="row align-items-center mil-mb-90">
           <div className="col-md-6 col-xl-6">

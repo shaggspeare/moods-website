@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Solution2TabSlider = () => {
   return (
     <section className="mil-p-120-120">
-      <div className="mil-deco" style={{ top: 0, left: "15%" }} />
+      {/*<div className="mil-deco" style={{ top: 0, left: "15%" }} />*/}
       <div className="container">
         <div className="mil-text-center mil-mb-90">
           <span className="mil-suptitle mil-suptitle-2 mil-mb-30">

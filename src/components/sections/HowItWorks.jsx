@@ -3,11 +3,11 @@ import Content from "../../data/sections/how-it-works.json";
 const HowItWorksSection = () => {
   return (
     <section className="mil-how-it-works mil-deep-bg mil-p-120-90">
-      <div className="mil-deco" style={{ top: 0, right: "20%" }} />
-      <div
-        className="mil-deco"
-        style={{ bottom: 0, left: "30%", transform: "rotate(180deg)" }}
-      />
+      {/*<div className="mil-deco" style={{ top: 0, right: "20%" }} />*/}
+      {/*<div*/}
+      {/*  className="mil-deco"*/}
+      {/*  style={{ bottom: 0, left: "30%", transform: "rotate(180deg)" }}*/}
+      {/*/>*/}
       <div className="container">
         <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
           {Content.subtitle}
